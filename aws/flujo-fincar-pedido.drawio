@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T22:16:42.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Z0NCts6ThAcr-VkWpo_M" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T23:31:17.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Y9wkNNJi79FVqEOy64yu" version="14.2.9" type="github">
   <diagram id="YVGtKCQuAJrb9fusuUW2" name="Page-1">
     <mxGraphModel dx="1066" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -177,6 +177,9 @@
         </mxCell>
         <mxCell id="wvHoCXfjdqKl0tfVTvvo-72" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1130" y="659" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="wvHoCXfjdqKl0tfVTvvo-76" value="Selección pedido" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1151" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
