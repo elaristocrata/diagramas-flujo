@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-14T02:58:29.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="_dvROmQbIZv8GugGcds1" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-14T03:01:56.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="2xiRsX1lQcoZRB0bptmp" version="14.3.1" type="github">
   <diagram id="lL7d54pcPsUlEKnqSucZ" name="Page-1">
     <mxGraphModel dx="750" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -16,17 +16,47 @@
         <mxCell id="3q-WEXnV7ro000-migsV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3q-WEXnV7ro000-migsV-2" target="3q-WEXnV7ro000-migsV-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3q-WEXnV7ro000-migsV-2" target="3q-WEXnV7ro000-migsV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3q-WEXnV7ro000-migsV-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="180" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3q-WEXnV7ro000-migsV-4" target="3q-WEXnV7ro000-migsV-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3q-WEXnV7ro000-migsV-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="330" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="3q-WEXnV7ro000-migsV-6" value="Guarda pedidos en bd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="210" width="40" height="20" as="geometry" />
+          <mxGeometry x="390" y="167" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3q-WEXnV7ro000-migsV-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="187" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-9" value="query para obtener info de pedidos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-11" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="416.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3q-WEXnV7ro000-migsV-13" target="3q-WEXnV7ro000-migsV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="323.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-14" value="query calc cantidad sugerida para archivo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="403" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="304.5" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="3q-WEXnV7ro000-migsV-16" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="391" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
