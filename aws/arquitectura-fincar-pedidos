@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T19:20:56.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="WEZKnbJNS4w7AaqUOND3" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-16T19:22:51.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="jPEe8cTjcD2e5vBGZ937" version="14.3.2" type="github">
   <diagram id="lL7d54pcPsUlEKnqSucZ" name="Page-1">
     <mxGraphModel dx="750" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="-Rnjdtp8BH3enG_9qz7K-2" value="Cola de mensajes&lt;br&gt;(SQS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1167.5" y="556.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-Rnjdtp8BH3enG_9qz7K-4" value="Generar evento&lt;br&gt;(SNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="-Rnjdtp8BH3enG_9qz7K-4" value="Generar evento&lt;br&gt;(SNS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1366.5" y="391" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BvAcLooyIZjFWox3n9UQ-1" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -220,6 +220,9 @@
         </mxCell>
         <mxCell id="BvAcLooyIZjFWox3n9UQ-3" value="Envío de correos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1620" y="576.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BvAcLooyIZjFWox3n9UQ-5" value="{message: uuid_pedido,&lt;br&gt;uuid_distribuidor}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1415.5" y="391" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
