@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T19:25:25.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="8dsvBi3t7lCGFU9G7eOM" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T08:12:37.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="d0_K0hQapIf-lHS9fbuH" version="14.4.2" type="github">
   <diagram id="lL7d54pcPsUlEKnqSucZ" name="Page-1">
-    <mxGraphModel dx="2143" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="749" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,17 +122,17 @@
         <mxCell id="-Rnjdtp8BH3enG_9qz7K-4" value="Generar evento&lt;br&gt;(SNS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="381" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BvAcLooyIZjFWox3n9UQ-1" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BvAcLooyIZjFWox3n9UQ-1" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1133.5" y="776.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BvAcLooyIZjFWox3n9UQ-2" value="Guarda pedidos en bd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BvAcLooyIZjFWox3n9UQ-2" value="Genera info extra" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1023.5" y="263" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BvAcLooyIZjFWox3n9UQ-3" value="Envío de correos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BvAcLooyIZjFWox3n9UQ-3" value="Envío de correos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1243.5" y="566.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BvAcLooyIZjFWox3n9UQ-5" value="{message: uuid_pedido,&lt;br&gt;uuid_distribuidor}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1039" y="381" width="140" height="20" as="geometry" />
+        <mxCell id="YEGZQrZeKBPYXhJtS_ip-2" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;{folio,subfolio,fecha_pedido,id_distribuidor,sku_tornel,cantidad,tipo_pedido,uuid_distribuidor}.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="361" width="550" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
