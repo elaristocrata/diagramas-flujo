@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T18:01:40.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="sQPHIzlH6fzdPwoD4MAN" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T18:06:48.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="MqMzc9lzLBIzeO_AMul5" version="14.4.3" type="github">
   <diagram id="2c7PKv8bWjRjEmr2xh0_" name="Page-1">
     <mxGraphModel dx="746" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -52,8 +52,23 @@
         <mxCell id="wPseZBrA7HBAOQfWar1F-17" value="Realizar Pedidos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="260" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wPseZBrA7HBAOQfWar1F-18" value="mensaje con folio y uuid_distribuidor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wPseZBrA7HBAOQfWar1F-18" value="evento con mensaje de folio y uuid_distribuidor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPseZBrA7HBAOQfWar1F-19" value="Mensaje en cola" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="584" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPseZBrA7HBAOQfWar1F-20" value="Controlador/ lambda para obtener direcciones de correo y cuerpo de correo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593" y="694" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPseZBrA7HBAOQfWar1F-21" value="Mensaje en cola con correos y cuerpo de correo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593" y="840" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPseZBrA7HBAOQfWar1F-22" value="Controlador/lambda&lt;br&gt;que envía el correo por aws SES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="970" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPseZBrA7HBAOQfWar1F-23" value="SES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1150" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
